@@ -251,7 +251,7 @@ public class TestRequestDispatcher extends AbstractCVM{
 		//RequestSubmissionInboundPortURI,
 		//RequestNotificationOutboundPortURI
 		
-		rq.linkRequestGenerator(rg,
+		rq.linkRequestGenerator(
 				(RequestSubmissionOutboundPort) rg.findPortFromURI(RequestSubmissionOutboundPortURI) 
 				, (RequestNotificationInboundPort) rg.findPortFromURI(RequestNotificationInboundPortURI));
 

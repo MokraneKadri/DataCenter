@@ -1,2 +1,5 @@
 /RequestDispatcherI.class
 /ControllerI.class
+/ApplicationRequestI.class
+/RequestDispatcherManagementI.class
+/ApplicationRequestInboundPortI.class
